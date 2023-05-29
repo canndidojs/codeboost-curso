@@ -1,0 +1,56 @@
+body {
+  background-color: #d1d1d1;
+  font-family: system-ui, -apple-system;
+}
+/* 
+section h1,
+h2 {
+  color: darkgreen;
+  font-size: 40px;
+}
+
+p {
+  color: gray;
+}
+
+span {
+  color: red;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+input {
+  outline: none;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 2px solid cadetblue;
+  
+} */
+/* 
+ul li:first-child {
+  color: red;
+}
+
+ul li:last-child {
+  color: green;
+}
+
+ul li:nth-child(2) {
+  color: pink;
+} */
