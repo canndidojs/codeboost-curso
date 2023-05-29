@@ -1,5 +1,6 @@
 {
   "recommendations": [
-    "robertz.code-snapshot"
+    "robertz.code-snapshot",
+    "dbaeumer.vscode-eslint"
   ]
 }
