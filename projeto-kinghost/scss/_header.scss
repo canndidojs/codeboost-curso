@@ -26,6 +26,10 @@ header {
             font-size: 1.6rem;
             line-height: 1.9rem;
             color: $white;
+            transition: all .4s;
+            &:hover {
+              color: $yellow;
+            }
           }
         }
       }
