@@ -4,7 +4,7 @@
   padding-top: 17.5rem;
   background: url("../img/bg-hero.svg") no-repeat center center;
   .container {
-    @include flex(row, flex-start, space-between)
+    @include flex(row, flex-start, space-between);
   }
   .text {
     width: 100%;
@@ -52,7 +52,7 @@
     width: 100%;
     max-width: 70.6rem;
     margin-right: -17.4rem;
-    h2{
+    h2 {
       text-align: center;
       margin-bottom: 6.7rem;
       color: $white;
@@ -90,5 +90,62 @@
   .left-area {
     width: 100%;
     max-width: 27.7rem;
+  }
+  .ilustra-mockup {
+    width: 100%;
+    max-width: 27.7rem;
+    position: relative;
+    margin-bottom: 12.9rem;
+    .circle {
+      position: absolute;
+      z-index: -1;
+      top: 8.7rem;
+      left: -21.4rem;
+      max-width: 37.7rem;
+    }
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    .icon {
+      position: relative;
+      &:before {
+        content: "";
+        width: .5rem;
+        height: 8.3rem;
+        position: absolute;
+        left: 50%;
+        margin-left: -2.5px;
+        top: -10.4rem;
+        background: url(/img/points.svg);
+      }
+    }
+    .info-txt {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      h3 {
+        margin-top: 3.6rem;
+        color: $gray-600;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: $gray-400;
+        opacity: 0.8;
+        margin-bottom: 2.6rem;
+      }
+      ul {
+        li{
+          &:not(:last-child) {
+            margin-bottom: 2.6rem;
+          }
+        }
+      }
+    }
   }
 }
